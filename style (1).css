@@ -96,5 +96,6 @@ tr:hover td {
 .urgente {
     color: #c90000;
     font-weight: bold;
-    background: #ffd2d2 !important;
+    background: #ffd2d2;
 }
+
