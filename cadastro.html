@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Tarefa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Cadastrar Nova Tarefa</h1>
+
+<form id="form">
+
+    <label>Prioridade:</label>
+    <select id="prioridade" required>
+        <option value="">Selecione</option>
+        <option value="Baixa">Baixa</option>
+        <option value="Normal">Normal</option>
+        <option value="Urgente">Urgente</option>
+    </select>
+
+    <label>Descrição:</label>
+    <input type="text" id="descricao" required>
+
+    <label>Local:</label>
+    <input type="text" id="local" required>
+
+    <label>Recursos necessários (separados por vírgula):</label>
+    <input type="text" id="recursos">
+
+    <label>Data limite:</label>
+    <input type="datetime-local" id="data" required>
+
+    <label>Matrícula:</label>
+    <input type="number" id="matricula" required>
+
+    <button type="submit">Cadastrar</button>
+</form>
+
+<a href="index.html">Voltar</a>
+
+<script src="script.js"></script>
+<script>
+    document.getElementById("form").addEventListener("submit", cadastrarTarefa);
+</script>
+
+</body>
+</html>
