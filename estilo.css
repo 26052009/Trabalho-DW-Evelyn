@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5eedd;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+  background: rgba(151, 140, 117, 0.932);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  width: 400px;
+  text-align: center;
+}
+
+.areaindex {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.list {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.list div {
+    display: flex;
+    padding: 1px;
+}
+
+.list div p{
+    width: 80%
+}
